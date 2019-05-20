@@ -1,5 +1,5 @@
 # Open data.txt for reading
-f = open('data.txt', 'r')
+f = open('files/relative_data.txt', 'r')
 
 lines = f.read()
 f.close()
