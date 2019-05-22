@@ -6,5 +6,18 @@ def show_menu():
     option = input("Enter option:")
     return option
     
-print(show_menu())
+def game_loop():
+    while True:
+        option = show_menu()
+        if option == "1":
+            print("You selected 'Ask questions'")
+        elif option == "2":
+            print("You selected 'Add questions'")
+        elif option == "3":
+            break
+        else:
+            print("Invalid option")
+        print("")  # This is just to leave a space 
+        
+game_loop()
     
